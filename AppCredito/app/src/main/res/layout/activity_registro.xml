@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Espacio decorativo entre título y subtítulo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:textSize="34sp"
+            android:textColor="#003E3233"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Título en negrita y centrado -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Registro De Usuario"
+            android:textSize="34sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Espacio decorativo entre título y subtítulo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-------------------------------"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#00FFFFFF"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Espacio decorativo entre título y subtítulo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:textSize="20sp"
+            android:textColor="#00D7121E"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Subtítulo con un texto más pequeño -->
+        <TextView
+            android:id="@+id/tvSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="......"
+            android:textSize="30sp"
+            android:textColor="#00D7121E"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Espacio decorativo entre título y subtítulo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:textSize="20sp"
+            android:textColor="#00D7121E"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etUsernameRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese nuevo usuario"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etPasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese nueva contraseña"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+        <!-- Espacio decorativo entre título y subtítulo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:textSize="100sp"
+            android:textColor="#00D7121E"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crear nueva cuenta"
+            android:backgroundTint="#000000"
+            android:textColor="#FF0000"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

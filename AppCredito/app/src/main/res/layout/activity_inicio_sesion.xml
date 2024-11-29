@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_1">
+     <!-- Color de fondo -->
+
+    <!-- Contenedor principal con orientación vertical y márgenes -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_vertical"
+        tools:ignore="ExtraText">
+
+        <!-- Espacio decorativo entre título y subtítulo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:textSize="34sp"
+            android:textColor="#00D7121E"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Título en negrita y centrado -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Iniciar Sesión"
+            android:textSize="34sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+
+        <!-- Espacio decorativo entre título y subtítulo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:textSize="90sp"
+            android:textColor="#00D7121E"
+            android:layout_marginBottom="8dp"/>
+
+
+        <!-- Campo de texto para el usuario -->
+        <EditText
+            android:id="@+id/etUsernameLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escriba su usuario"
+            android:minHeight="48dp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Campo de texto para la contraseña -->
+        <EditText
+            android:id="@+id/etPasswordLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escriba su contraseña"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Espacio decorativo entre título y subtítulo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:textSize="90sp"
+            android:textColor="#00D7121E"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Botón de inicio de sesión con color de fondo -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entrar"
+            android:backgroundTint="#520505"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Enlace para redirigir al registro estilo botón -->
+        <TextView
+            android:id="@+id/tvGoToRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿No tienes cuenta? Regístrate"
+            android:textColor="#FF0000"
+            android:background="@drawable/rounded_button"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

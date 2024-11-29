@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_4">
+
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+    <!-- Espacio decorativo entre título y subtítulo -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="."
+        android:textSize="34sp"
+        android:textColor="#00F682A4"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Título en negrita y centrado -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Bienvenido al menú"
+        android:textSize="34sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Espacio decorativo entre título y subtítulo -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="."
+        android:textSize="34sp"
+        android:textColor="#00F682A4"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Espacio decorativo entre título y subtítulo -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="."
+        android:textSize="34sp"
+        android:textColor="#00F682A4"
+        android:layout_marginBottom="8dp"/>
+
+
+
+    <Button
+            android:id="@+id/btnVolverInicioSesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inicio de Sesión"
+            android:backgroundTint="#7A0404"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnVolverConsulta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inicio de Consulta"
+            android:backgroundTint="#7A0404"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnCarritoCompras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Carrito"
+            android:backgroundTint="#7A0404"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnSolicitarCredito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Solicitar Aumento de Crédito"
+            android:backgroundTint="#7A0404"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="40dp"/>
+
+    <!-- Espacio decorativo entre título y subtítulo -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="."
+        android:textSize="100sp"
+        android:textColor="#00F682A4"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="246dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#000000"
+        android:minHeight="48dp"
+        android:text="Exit"
+        android:textColor="#FF0000" />
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
